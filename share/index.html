@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <section>
+					<h2><a target="_blank" href="https://nextjs.org/docs/getting-started">Next.Js</a></h2>
+          <ul>
+						<li>Routing：a file-system based router</li>
+						<li>Data fetching：'getInitialProps' function</li>
+						<li>Custom Server</li>
+						<li>Custom 'App'</li>
+						<li>Custom 'Document'</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><a target="_blank" href="https://reactjs.org/docs/getting-started.html">React.js</a></h2>
+          <ul>
+						<li>JSX</li>
+						<li>Components and Props</li>
+						<li>State and Lifecycle</li>
+						<li>Handling Events</li>
+						<li>Hooks</li>
+					</ul>
+        </section>
+
+        <section>
+					<h2><a target="_blank" href="https://reactjs.org/docs/getting-started.html">Redux</a></h2>
+          <ul>
+						<li><a target="_blank" href="https://react-redux.js.org/introduction/quick-start">React Redux</a></li>
+            <li><a target="_blank" href="https://redux-observable.js.org/">redux-observable</a></li>
+            <li><a target="_blank" href="https://rxjs.dev/guide/overview">Rxjs</a></li>
+					</ul>
+        </section>
+        <section>
+					<h2>Css in React</h2>
+          <ul>
+						<li><a target="_blank" href="https://emotion.sh/docs/introduction">Emotion</a></li>
+					</ul>
+        </section>
+        
+
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
